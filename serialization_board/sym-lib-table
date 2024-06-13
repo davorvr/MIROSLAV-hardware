@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "serialization_board-rescue")(type "KiCad")(uri "${KIPRJMOD}/serialization_board-rescue.kicad_sym")(options "")(descr ""))
+)

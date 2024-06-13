@@ -1,0 +1,80 @@
+work_dir = /home/davor/working/miroslav/miro-v04/serialization_board
+in_pcb_file = serialization_board.kicad_pcb
+root_schematic_file = serialization_board.sch
+New sheet from: serialization_board.sch
+/61A66ECA ('PHL0', (1800, 1800), '')
+/61AE66F2 ('#PWR09', (5300, 3850), '')
+/61AE815D ('#PWR03', (5300, 1650), '')
+/61AECAC4 ('JP3', (9550, 4400), '')
+/61AEDA89 ('JP5', (10150, 4400), '')
+/61AFDD99 ('#PWR06', (9550, 4100), '')
+/61AFF0F3 ('#PWR07', (9550, 4700), '')
+/61AFFD22 ('#PWR05', (6250, 2850), '')
+/61B739D7 ('#PWR04', (8950, 3500), '')
+/61BA927D ('J1', (8450, 1950), '')
+/61BAA29E ('#PWR02', (8450, 2050), '')
+/61BED7C0 ('#PWR018', (5700, 5850), '')
+/61BF03F2 ('#PWR016', (5700, 5200), '')
+/61C0120A ('#PWR013', (4250, 5300), '')
+/61C06761 ('#PWR014', (4250, 6000), '')
+/61C741E0 ('J6', (5900, 5100), '')
+/61C74D92 ('J8', (5900, 5750), '')
+/61C84290 ('J5', (4750, 5050), '')
+/61C88EA2 ('J7', (4750, 5750), '')
+/61A774CF ('#PWR017', (8450, 1950), '')
+/61A792F2 ('#PWR01', (5700, 5100), '')
+/61A79BB3 ('#PWR015', (5700, 5750), '')
+/61AEC0F0 ('JP1', (8900, 4400), '')
+/61B47716 ('J3', (6300, 2450), '')
+/61B65F43 ('J2', (9250, 3150), '')
+/61A8CE74 ('C1', (9600, 2000), '')
+/61A8D91B ('#PWR0101', (9600, 1900), '')
+/61A8E286 ('#PWR0102', (9600, 2100), '')
+/61B10BA9 ('U1', (5300, 2750), '')
+/61D122CF ('PHL1', (1800, 2200), '')
+/61D12955 ('PHL2', (1800, 2600), '')
+/61D13111 ('PHL3', (1800, 3000), '')
+/61D13628 ('PHL4', (1800, 3400), '')
+/61D13AC9 ('PHL5', (1800, 3800), '')
+/61D14011 ('PHL6', (1800, 4200), '')
+/61D14367 ('PHL7', (1800, 4600), '')
+U1 /61B10BA9
+  path = /61B10BA9   sheet =    ref = U1   pos = (5300, 2750)   new_pos = (79500000, 41250000)
+PHL7 /61D14367
+  path = /61D14367   sheet =    ref = PHL7   pos = (1800, 4600)   new_pos = (27000000, 69000000)
+PHL6 /61D14011
+  path = /61D14011   sheet =    ref = PHL6   pos = (1800, 4200)   new_pos = (27000000, 63000000)
+PHL5 /61D13AC9
+  path = /61D13AC9   sheet =    ref = PHL5   pos = (1800, 3800)   new_pos = (27000000, 57000000)
+PHL4 /61D13628
+  path = /61D13628   sheet =    ref = PHL4   pos = (1800, 3400)   new_pos = (27000000, 51000000)
+PHL3 /61D13111
+  path = /61D13111   sheet =    ref = PHL3   pos = (1800, 3000)   new_pos = (27000000, 45000000)
+PHL2 /61D12955
+  path = /61D12955   sheet =    ref = PHL2   pos = (1800, 2600)   new_pos = (27000000, 39000000)
+PHL1 /61D122CF
+  path = /61D122CF   sheet =    ref = PHL1   pos = (1800, 2200)   new_pos = (27000000, 33000000)
+PHL0 /61A66ECA
+  path = /61A66ECA   sheet =    ref = PHL0   pos = (1800, 1800)   new_pos = (27000000, 27000000)
+JP5 /61AEDA89
+  path = /61AEDA89   sheet =    ref = JP5   pos = (10150, 4400)   new_pos = (152250000, 66000000)
+JP3 /61AECAC4
+  path = /61AECAC4   sheet =    ref = JP3   pos = (9550, 4400)   new_pos = (143250000, 66000000)
+JP1 /61AEC0F0
+  path = /61AEC0F0   sheet =    ref = JP1   pos = (8900, 4400)   new_pos = (133500000, 66000000)
+J8 /61C74D92
+  path = /61C74D92   sheet =    ref = J8   pos = (5900, 5750)   new_pos = (88500000, 86250000)
+J7 /61C88EA2
+  path = /61C88EA2   sheet =    ref = J7   pos = (4750, 5750)   new_pos = (71250000, 86250000)
+J6 /61C741E0
+  path = /61C741E0   sheet =    ref = J6   pos = (5900, 5100)   new_pos = (88500000, 76500000)
+J5 /61C84290
+  path = /61C84290   sheet =    ref = J5   pos = (4750, 5050)   new_pos = (71250000, 75750000)
+J3 /61B47716
+  path = /61B47716   sheet =    ref = J3   pos = (6300, 2450)   new_pos = (94500000, 36750000)
+J2 /61B65F43
+  path = /61B65F43   sheet =    ref = J2   pos = (9250, 3150)   new_pos = (138750000, 47250000)
+J1 /61BA927D
+  path = /61BA927D   sheet =    ref = J1   pos = (8450, 1950)   new_pos = (126750000, 29250000)
+C1 /61A8CE74
+  path = /61A8CE74   sheet =    ref = C1   pos = (9600, 2000)   new_pos = (144000000, 30000000)
