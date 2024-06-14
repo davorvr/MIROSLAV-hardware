@@ -10,13 +10,22 @@ This repo holds everything needed to build a working MIROSLAV device. Arduino fi
 
 ### Printed circuit board designs
 
-MIROSLAV's current hardware revision is v0.4, designed in Dec 2021 in KiCad 6.0. At that time, we generated Gerbers and produced the PCBs through JLCPCB. The devices have been successfully in the proof-of-concept study described in the paper.
+**This version now uses a different ESP32-S2 module - it is not compatible with ESP32-S2-Saola-1 used in v0.4!**
 
-The only change made in the meantime was a verbatim conversion of project files to KiCad 8.0 format for convenience of further development. Original Gerber files still remain so that a tested MIROSLAV design can be easily reproduced.
+Current MIROSLAV hardware revision is v0.5 - the main objective was to produce a board that works with ESP32-S2-DevKitM-1 as it seems that Espressif doesn't produce ESP32-S2-Saola-1 boards anymore. Other than that, it's just a few QoL improvements. If you need a Saola-compatible board, the v0.4 still works well. v0.5 hasn't been produced and tested yet. Here is a full list of changes since the first published version, v0.4:
 
-**To reproduce MIROSLAV, it is sufficient to download the Gerbers and send them to a PCB manufacturer.**
+* MAINBOARD: Modified the mainboard to use ESP32-S2-DevKitM-1 instead of ESP32-S2-Saola-1. Footprints can be obtained from [Espressif's KiCad footprint library repository](https://github.com/espressif/kicad-libraries).
+* MAINBOARD: Expanded to the right and repositioned environmental sensors along the right edge of the board to stay out of the way of the ESP32 board's USB connector. The sensor sockets are also farther apart so they don't clash.
+* MAINBOARD: Added M3 mounting holes, the "I2C PIR" connector and resistor "R1" have been moved slightly to accomodate them.
+* POWERBOARD: Added M3 mounting holes, the board is wider as a result.
 
-Additional part symbols and footprints used in the design are contained in `miro-v04.kicad_sym` and `miro-v04.pretty` libraries, respectively.
+To produce MIROSLAV, it is sufficient to generate Gerber files and send them to a PCB manufacturer.
+
+Additional part symbols and footprints used in the design are contained in `miro-v04.kicad_sym` and `miro-v04.pretty` libraries, respectively. [Espressif's KiCad library v3.0.0](https://github.com/espressif/kicad-libraries) was used for the ESP32-S2-DevKitM-1 footprint.
+
+### Last produced design
+
+MIROSLAV's last produced and tested design was also its first published hardware revision, v0.4, designed in Dec 2021 in KiCad 6.0, and can be found in this repository, [under the tag "v0.4"](https://github.com/davorvr/MIROSLAV-hardware/tree/v0.4). At that time, we generated Gerbers (which are still available under the v0.4 tag) and produced the PCBs through JLCPCB. The v0.4 devices have been successfully in the proof-of-concept study described in the MIROSLAV paper.
 
 ### Related repositories
 
