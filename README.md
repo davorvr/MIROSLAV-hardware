@@ -8,7 +8,27 @@ This repo holds everything needed to build a working MIROSLAV device. Arduino fi
 
 **MIROSLAV (_Multicage InfraRed Open Source Locomotor Activity eValuator_)** is a platform for non-invasive monitoring of circadian locomotor activity in laboratory rodents. MIROSLAV is fully open source and scalable to hundreds of cages. All of its hardware and software components are described in the paper: #url
 
-### Printed circuit board designs
+***
+
+### File tree
+
+- `bom/` - Bill of Materials for all needed parts and an informative order sheet for the PCBs. Note that the PCBs are panelised so e.g. 10 pcs of the sensor board refer to 10x2 panels - total 200 boards.
+
+- `gerbers/` - Last produced gerber files - MIROSLAV v0.4, as described in the paper
+
+- KiCad board project directories:
+  - `main_board/`
+  - `power_board/`
+  - `sensor_board/`
+  - `serialization_board/`
+
+- `symbols/` - Contains additional individual symbols and footprints used.
+
+- `miro-v04.pretty/` - Contains additional symbols, packed into a `.pretty` library (footprints)
+
+- `miro-v04.kicad_sym` - Contains additional symbols, packed into a `.kicad_sym` library (schematic symbols)
+
+### About the current state of the designs
 
 MIROSLAV's current hardware revision is v0.4, designed in Dec 2021 in KiCad 6.0. At that time, we generated Gerbers and produced the PCBs through JLCPCB. The devices have been successfully in the proof-of-concept study described in the paper.
 
