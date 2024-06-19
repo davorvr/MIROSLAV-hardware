@@ -8,20 +8,44 @@ This repo holds everything needed to build a working MIROSLAV device. Arduino fi
 
 **MIROSLAV (_Multicage InfraRed Open Source Locomotor Activity eValuator_)** is a platform for non-invasive monitoring of circadian locomotor activity in laboratory rodents. MIROSLAV is fully open source and scalable to hundreds of cages. All of its hardware and software components are described in the paper: #url
 
-### Printed circuit board designs
+***
+
+### File tree
+
+- `bom/` - Bill of Materials for all needed parts and an informative order sheet for the PCBs. Note that the PCBs are panelised so e.g. 10 pcs of the sensor board refer to 10x2 panels - total 200 boards.
+
+- `gerbers/` - Last produced gerber files - MIROSLAV v0.4, as described in the paper
+
+- KiCad board project directories:
+  - `main_board/`
+  - `power_board/`
+  - `sensor_board/`
+  - `serialization_board/`
+
+- `symbols/` - Contains additional individual symbols and footprints used.
+
+- `miro-v04.pretty/` - Contains additional symbols, packed into a `.pretty` library (footprints)
+
+- `miro-v04.kicad_sym` - Contains additional symbols, packed into a `.kicad_sym` library (schematic symbols)
+
+### About the current state of the designs
 
 **This version now uses a different ESP32-S2 module - it is not compatible with ESP32-S2-Saola-1 used in v0.4!**
 
-Current MIROSLAV hardware revision is v0.5 - the main objective was to produce a board that works with ESP32-S2-DevKitM-1 as it seems that Espressif doesn't produce ESP32-S2-Saola-1 boards anymore. Other than that, it's just a few QoL improvements. If you need a Saola-compatible board, the v0.4 still works well. v0.5 hasn't been produced and tested yet. Here is a full list of changes since the first published version, v0.4:
+Current MIROSLAV hardware revision is v0.5 - the main objective was to produce a board that works with ESP32-S2-DevKitM-1 as it seems that Espressif doesn't produce ESP32-S2-Saola-1 boards anymore. Other than that, it's just a few QoL improvements. If you need a Saola-compatible board, the v0.4 still works well. v0.5 hasn't been produced and tested yet.
+
+To produce MIROSLAV, it is sufficient to generate Gerber files and send them to a PCB manufacturer.
+
+Additional part symbols and footprints used in the design are contained in `miro-v04.kicad_sym` and `miro-v04.pretty` libraries, respectively. [Espressif's KiCad library v3.0.0](https://github.com/espressif/kicad-libraries) was used for the ESP32-S2-DevKitM-1 footprint.
+
+### Changelog
+
+Here is a full list of changes since the first published version, v0.4:
 
 * MAINBOARD: Modified the mainboard to use ESP32-S2-DevKitM-1 instead of ESP32-S2-Saola-1. Footprints can be obtained from [Espressif's KiCad footprint library repository](https://github.com/espressif/kicad-libraries).
 * MAINBOARD: Expanded to the right and repositioned environmental sensors along the right edge of the board to stay out of the way of the ESP32 board's USB connector. The sensor sockets are also farther apart so they don't clash.
 * MAINBOARD: Added M3 mounting holes, the "I2C PIR" connector and resistor "R1" have been moved slightly to accomodate them.
 * POWERBOARD: Added M3 mounting holes, the board is wider as a result.
-
-To produce MIROSLAV, it is sufficient to generate Gerber files and send them to a PCB manufacturer.
-
-Additional part symbols and footprints used in the design are contained in `miro-v04.kicad_sym` and `miro-v04.pretty` libraries, respectively. [Espressif's KiCad library v3.0.0](https://github.com/espressif/kicad-libraries) was used for the ESP32-S2-DevKitM-1 footprint.
 
 ### Last produced design
 
