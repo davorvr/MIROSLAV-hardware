@@ -8135,8 +8135,8 @@
 		(layer "Edge.Cuts")
 		(uuid "d53a7a25-ae65-437e-a060-edd4d50245ed")
 	)
-	(gr_text "MIROSLAV v0.4 - Power distribution board"
-		(at 103.505 69.215 -90)
+	(gr_text "MIROSLAV v0.5 - Power distribution board"
+		(at 103.5 72.5 270)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000061b62a5d")
 		(effects
