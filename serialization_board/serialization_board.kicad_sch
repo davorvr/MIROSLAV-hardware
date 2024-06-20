@@ -3789,7 +3789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "U1 Decoupling"
+		(property "Value" "0.1 uF"
 			(at 246.1768 51.943 0)
 			(effects
 				(font
