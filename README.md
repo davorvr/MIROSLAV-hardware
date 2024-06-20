@@ -34,6 +34,8 @@ MIROSLAV's current hardware revision is v0.4, designed in Dec 2021 in KiCad 6.0.
 
 The only change made in the meantime was a verbatim conversion of project files to KiCad 8.0 format for convenience of further development. Original Gerber files still remain so that a tested MIROSLAV design can be easily reproduced.
 
+Note the **[v0.5 branch](https://github.com/davorvr/MIROSLAV-hardware/tree/v0.5)** which contains updated designs that haven't been produced/tested yet.
+
 **To reproduce MIROSLAV, it is sufficient to download the Gerbers and send them to a PCB manufacturer.**
 
 Additional part symbols and footprints used in the design are contained in `miro-v04.kicad_sym` and `miro-v04.pretty` libraries, respectively.
