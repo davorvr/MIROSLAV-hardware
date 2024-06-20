@@ -30,7 +30,7 @@ This repo holds everything needed to build a working MIROSLAV device. Arduino fi
 
 ### About the current state of the designs
 
-MIROSLAV's current hardware revision is v0.4, designed in Dec 2021 in KiCad 6.0. At that time, we generated Gerbers and produced the PCBs through JLCPCB. The devices have been successfully in the proof-of-concept study described in the paper.
+MIROSLAV's current hardware revision is **v0.4**, designed in Dec 2021 in KiCad 6.0. At that time, we generated Gerbers and produced the PCBs through JLCPCB. The devices have been successfully in the proof-of-concept study described in the paper.
 
 The only change made in the meantime was a verbatim conversion of project files to KiCad 8.0 format for convenience of further development. Original Gerber files still remain so that a tested MIROSLAV design can be easily reproduced.
 
