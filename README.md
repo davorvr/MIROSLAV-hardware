@@ -1,6 +1,6 @@
 <img src="logo/hexsticker.png" height="170" align="left" hspace=15></img>
 <br> MIROSLAV hardware <br>
-[![Full paper](https://img.shields.io/badge/Full%20paper-10.1101%2F2024.06.25.600592-%23B12929)](https://doi.org/10.1101/2024.06.25.600592) [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.11659495-%230F81C2)](https://doi.org/10.5281/zenodo.11659495) <br clear="left"/>
+[![Full paper](https://img.shields.io/badge/Full%20paper-10.1101%2F2024.06.25.600592-%23B12929)](https://doi.org/10.1101/2024.06.25.600592) [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.11659494-%230F81C2)](https://doi.org/10.5281/zenodo.11659494) <br clear="left"/>
 ========
 
 ### What is it?
