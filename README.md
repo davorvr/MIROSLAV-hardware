@@ -1,5 +1,7 @@
-# MIROSLAV hardware
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11659495.svg)](https://doi.org/10.5281/zenodo.11659495)
+<img src="logo/hexsticker.png" height="170" align="left" hspace=15></img>
+<br> MIROSLAV hardware <br>
+[![Full paper](https://img.shields.io/badge/Full%20paper-10.1101%2F2024.06.25.600592-%23B12929)](https://doi.org/10.1101/2024.06.25.600592) [![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.11659495-%230F81C2)](https://doi.org/10.5281/zenodo.11659495) <br clear="left"/>
+========
 
 ### What is it?
 
@@ -60,4 +62,6 @@ MIROSLAV's last produced and tested design was also its first published hardware
 
 ### License
 
-You can modify any part of MIROSLAV freely under the GPLv3 license - if you have any questions, problems, or ideas on how to improve MIROSLAV, feel free to reach out to us, submit a GitHub issue, or a pull request.
+You can modify any part of MIROSLAV freely under the **GPLv3** license - if you have any questions, problems, or ideas on how to improve MIROSLAV, feel free to reach out to us, submit a GitHub issue, or a pull request.
+
+The MIROSLAV logo is created by Petra Šoštarić Mužić and licensed under the **CC BY-NC-SA 4.0** license - more details can be found in the repository's [`logo/` directory](logo/).
